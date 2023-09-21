@@ -1,0 +1,54 @@
+// 修改组件库内部的样式
+// 1.需要自定义一个类名空间
+// 2.在浏览器里面调试样式
+// 3.把调试好的类名放在这个类名里面
+// 4.在App.vue里面引入这个文件
+// 5.在组件内需要改样式的元素的父元素加上这个类名
+.tl-dialog__body {
+  .el-dialog__body {
+    height: 60vh;
+    padding: 10px;
+  }
+}
+.list-tabs__item {
+  .el-tabs__nav {
+    width: 100%;
+    display: flex;
+  }
+  .el-tabs__item {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+// popover
+.popper_style {
+  border-radius: 40px !important;
+}
+
+.list-tabs__item .el-tabs__item {
+  font-size: 18px;
+}
+.date_popover {
+  .el-date-picker__header {
+    margin: 5px 15px;
+  }
+  .el-date-picker {
+    width: 300px;
+    .el-date-picker {
+      width: 100%;
+    }
+  }
+  .el-picker-panel__icon-btn {
+    margin-right: 15px;
+  }
+  .el-picker-panel__content {
+    font-size: 14px !important;
+    margin: 0 15px;
+  }
+}
+@media (max-width: 599px) {
+  .el-dialog {
+    width: 80% !important;
+  }
+}

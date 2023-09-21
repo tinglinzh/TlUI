@@ -1,0 +1,6 @@
+
+@media (max-width: 599px) {  
+    .el-dialog{
+        width: 80% !important;
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "tl-element-plus",
+    "version": "1.0.1",
+    "main": "index.umd.js",
+   "module": "index.js",
+   "types":"index.d.ts",
+   "author": {
+    "name": "tinglin"
+   } 
+
+}
