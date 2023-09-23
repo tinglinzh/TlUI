@@ -8,7 +8,7 @@ Vue3+Vite+TS+Element-plus+Vitepress+FullCalendar
 
 ## 组件在线文档
 
-https://tlui.icbox.top
+http://tlui.icbox.top
 
 ## npm
 
@@ -19,7 +19,8 @@ npm install tl-elements-plus --save
 ## 组件使用请查看文档
 
 ```
-
-组件演示地址:https://tinglinzh.github.io/tl-element-plus/#/
-组件库文档地址:http://tlui.icbox.top
+组件演示地址:
+https://tinglinzh.github.io/tl-element-plus/#/
+组件库文档地址:
+http://tlui.icbox.top
 ```
